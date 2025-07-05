@@ -6,7 +6,6 @@ const Skills = () => {
     { name: "JavaScript", icon: Code },
     { name: "Python", icon: Code },
     { name: "UI/UX Design", icon: Palette },
-    { name: "MongoDB", icon: Database },
     { name: "MySQL", icon: Database }
   ];
   
