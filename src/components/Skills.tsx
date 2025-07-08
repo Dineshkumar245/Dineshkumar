@@ -4,7 +4,7 @@ const Skills = () => {
   const technicalSkills = [
     { name: "HTML/CSS", icon: Code },
     { name: "JavaScript", icon: Code },
-    { name: "Python", icon: Code },
+    { name: "Java", icon: Code },
     { name: "UI/UX Design", icon: Palette },
     { name: "MySQL", icon: Database }
   ];
