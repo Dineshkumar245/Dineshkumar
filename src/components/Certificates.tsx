@@ -13,44 +13,11 @@ const Certificates = () => {
     },
     {
       id: 2,
-      title: "Introduction to Industry 4.0 and Industrial Internet of Things",
-      issuer: "NPTEL",
-      date: "October 2024",
-      score: "73%",
-      image: "/lovable-uploads/8e4fa098-08f2-4526-afba-1e6d59f6afc5.png",
-      description: "Elite certification in Industry 4.0 concepts and IoT implementation"
-    },
-    {
-      id: 4,
-      title: "SQL and Relational Databases 101",
-      issuer: "Cognitive Class (IBM)",
-      date: "July 2024",
-      image: "/lovable-uploads/24902e6f-0589-41c5-841d-cc4e2d44b0e0.png",
-      description: "Database fundamentals and SQL query optimization"
-    },
-    {
-      id: 5,
-      title: "PHP & MySQL Development",
-      issuer: "Stack Queue",
-      date: "February 2024",
-      image: "/lovable-uploads/3c8746a7-3d99-49b6-8f96-319e19e08f1a.png",
-      description: "Credit-based training in web development technologies"
-    },
-    {
-      id: 6,
-      title: "Front End Development - CSS",
-      issuer: "Great Learning",
-      date: "July 2024",
-      image: "/lovable-uploads/bd62c765-d805-48cf-b513-d5688da08e5c.png",
-      description: "Advanced CSS techniques and responsive design principles"
-    },
-    {
-      id: 7,
-      title: "JavaScript Essentials 1",
-      issuer: "Cisco Networking Academy",
-      date: "December 2024",
-      image: "/lovable-uploads/3cf33ab9-9c5e-48ce-9be0-f58113270fdf.png",
-      description: "Core JavaScript programming concepts and syntax"
+      title: "ServiceNow Certified System Administrator",
+      issuer: "ServiceNow",
+      date: "July 2025",
+      image: "/lovable-uploads/servicenow-csa.png",
+      description: "Foundational understanding of ServiceNow Cloud services and platform infrastructure."
     }
   ];
 
@@ -73,7 +40,7 @@ const Certificates = () => {
                 <img 
                   src={cert.image} 
                   alt={cert.title} 
-                  className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105"
+                  className="w-full h-full object-cover transition-all duration-500"
                 />
               </div>
               <CardContent className="p-6">
