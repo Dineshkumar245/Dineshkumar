@@ -6,7 +6,7 @@ const Skills = () => {
     { name: "JavaScript", icon: Code },
     { name: "Python", icon: Code },
     { name: "Java", icon: Code },
-    { name: "UI/UX Design", icon: Palette },
+    { name: "UI/UX Design[Figma]", icon: Palette },
     { name: "MySQL", icon: Database }
   ];
   
