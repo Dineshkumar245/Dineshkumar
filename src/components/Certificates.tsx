@@ -9,7 +9,7 @@ const Certificates = () => {
       issuer: "Amazon Web Services",
       date: "February 2025",
       image: "/lovable-uploads/c12761f7-c361-4602-9874-47410dbb5a76.png",
-      description: "Foundational understanding of AWS Cloud services and infrastructure"
+      description: "Foundational understanding of AWS Cloud services and infrastructure."
     },
     {
       id: 2,
@@ -18,6 +18,14 @@ const Certificates = () => {
       date: "July 2025",
       image: "/lovable-uploads/servicenow-csa.png",
       description: "Foundational understanding of ServiceNow Cloud services and platform infrastructure."
+    },
+    {
+      id: 3,
+      title: "ServiceNow Certified Application Developer",
+      issuer: "ServiceNow",
+      date: "July 2025",
+      image: "/lovable-uploads/servicenow-cad.png",
+      description: "Foundational understanding of ServiceNow application development, scripting, and platform architecture."
     }
   ];
 
