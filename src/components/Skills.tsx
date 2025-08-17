@@ -1,20 +1,18 @@
-import { Code, Database, Palette, Users, Lightbulb, MessageCircle, Zap } from "lucide-react";
+import { Code, Database, Palette, Users, Lightbulb, Zap, Goal, Shield} from "lucide-react";
 
 const Skills = () => {
   const technicalSkills = [
     { name: "HTML/CSS", icon: Code },
     { name: "JavaScript", icon: Code },
-    { name: "Python", icon: Code },
     { name: "Java", icon: Code },
     { name: "UI/UX Design[Figma]", icon: Palette },
     { name: "MySQL", icon: Database }
   ];
   
   const softSkills = [
-    { name: "Communication", icon: MessageCircle },
-    { name: "Teamwork", icon: Users },
     { name: "Adaptability", icon: Zap },
-    { name: "Creativity", icon: Lightbulb },
+    { name: "Persistence", icon: Goal },
+    { name: "Resilience", icon: Shield },
   ];
 
   return (
@@ -74,3 +72,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
