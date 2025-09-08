@@ -5,14 +5,6 @@ const Certificates = () => {
   const certificates = [
     {
       id: 1,
-      title: "AWS Certified Cloud Practitioner",
-      issuer: "Amazon Web Services",
-      date: "February 2025",
-      image: "/lovable-uploads/c12761f7-c361-4602-9874-47410dbb5a76.png",
-      description: "Foundational understanding of AWS Cloud services and infrastructure."
-    },
-    {
-      id: 2,
       title: "ServiceNow Certified System Administrator",
       issuer: "ServiceNow",
       date: "July 2025",
@@ -20,12 +12,20 @@ const Certificates = () => {
       description: "Foundational understanding of ServiceNow Cloud services and platform infrastructure."
     },
     {
-      id: 3,
+      id: 2,
       title: "ServiceNow Certified Application Developer",
       issuer: "ServiceNow",
       date: "July 2025",
       image: "/lovable-uploads/servicenow-cad.png",
       description: "Foundational understanding of ServiceNow application development, scripting, and platform architecture."
+    },
+     {
+      id: 3,
+      title: "AWS Certified Cloud Practitioner",
+      issuer: "Amazon Web Services",
+      date: "February 2025",
+      image: "/lovable-uploads/c12761f7-c361-4602-9874-47410dbb5a76.png",
+      description: "Foundational understanding of AWS Cloud services and infrastructure."
     }
   ];
 
@@ -85,3 +85,4 @@ const Certificates = () => {
 };
 
 export default Certificates;
+
