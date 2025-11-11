@@ -2,6 +2,7 @@ import { Code, Database, Palette, Users, Lightbulb, Zap, Goal, Shield} from "luc
 
 const Skills = () => {
   const technicalSkills = [
+    { name: "ServiceNow", icon: fa-cloud }
     { name: "HTML/CSS", icon: Code },
     { name: "JavaScript", icon: Code },
     { name: "Java", icon: Code },
@@ -72,4 +73,5 @@ const Skills = () => {
 };
 
 export default Skills;
+
 
